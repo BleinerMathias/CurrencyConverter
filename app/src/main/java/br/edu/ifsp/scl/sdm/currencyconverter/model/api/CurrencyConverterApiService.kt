@@ -11,14 +11,14 @@ interface CurrencyConverterApiService {
 
     @Headers(
         "x-rapidapi-host: currency-converter5.p.rapidapi.com",
-        "x-rapidapi-key: 31677dd32cmsha0c2b6ef9d2f51bp185cc2jsn473bd24418c2"
+        "x-rapidapi-key: "
     )
     @GET("list")
     fun getCurrencyList(): Call<CurrencyList> // Realiza a chamada para obter a lista de moedas (assincrona)
 
     @Headers(
         "x-rapidapi-host: currency-converter5.p.rapidapi.com",
-        "x-rapidapi-key: 31677dd32cmsha0c2b6ef9d2f51bp185cc2jsn473bd24418c2"
+        "x-rapidapi-key: "
     )
     @GET("convert")
     fun convertCurrency(
