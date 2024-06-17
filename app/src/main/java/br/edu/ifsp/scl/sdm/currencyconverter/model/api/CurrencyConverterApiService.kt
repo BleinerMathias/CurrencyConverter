@@ -18,7 +18,7 @@ interface CurrencyConverterApiService {
 
     @Headers(
         "x-rapidapi-host: currency-converter5.p.rapidapi.com",
-        "x-rapidapi-key: "
+        "x-rapidapi-key:"
     )
     @GET("convert")
     fun convertCurrency(
